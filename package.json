@@ -1,0 +1,21 @@
+{
+  "name": "windows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sns": "nodemon ./dist/sns.js",
+    "producer": "nodemon ./dist/producer.js",
+    "register": "node ./dist/register.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "@types/request": "^2.48.1",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0"
+  }
+}
